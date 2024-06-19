@@ -1,19 +1,25 @@
+import "./intro.css";
 import React from 'react'
 import {Link} from 'react-scroll';
+import hireicon from '../../assets/hireme.png';
 
 const Intro = () => {
   return (
-    <div><section className="intro">
-        <div className="introContent">
-            <span className="hello">Hello,</span>
-            <span className="introText">I'm <span className="introName">Gordon</span><br />Front End Developer</span>
-            <p className="introPara">I am an entry level Front End Developer with a passion</p>
-            <Link><button className="btn">Hire Me</button></Link>
-        </div>
-        <img src="" alt="" className="bg" />
+    <section id="intro">
+      <div className="introContent">
+            <span className="hello">Hello! </span>
+            <span className="introText">I'm 
+             <span className="introName"> Gordon Cai,</span> 
+            </span>
+            <br /> a Front End Developer
+            <p className="introParagraph">
+                I'm an aspiring Front End Developer with a passion.
+            </p>
+            <Link><button className="hireMeButton"><img src={hireicon} alt="Hire Me" className="hireMeImg"/>Hire Me</button></Link>
+      </div>
+      <img src="" alt="" className="backgroundImage" />
     </section>
-
-    </div>
+    
   )
 }
 
