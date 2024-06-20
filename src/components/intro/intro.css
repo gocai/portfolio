@@ -71,3 +71,10 @@
         
     }
 }
+
+@media screen and (max-width:480px){
+    .introContent{
+        font-size: 7.5vw;
+    }
+    
+}
