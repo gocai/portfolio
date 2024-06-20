@@ -16,6 +16,7 @@ const Navbar = () => {
         </div>
         <button className="contactMeButton">
             <img src={contactme} alt="" className="contactMeIcon" />
+            Contact Me
         </button>
     </nav>
   )

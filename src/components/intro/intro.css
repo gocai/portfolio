@@ -18,6 +18,7 @@
     transition-duration: 0.4s;
     margin-top: 1rem;
     cursor: pointer;
+    padding: 0.50rem 1.5rem;
 }
 
 .hireMeButton:hover{
@@ -26,6 +27,47 @@
 }
 
 .hireMeImg{
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
+    padding: 5px;
+    margin-right: 2px;
+}
+
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2px;
+    font-size: 5rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+
+.introName{
+    color: black;
+}
+
+.introParagraph{
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:840px){
+    .introContent{
+        font-size: 7.5vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+    .introParagraph{
+        font-size: 2vw;
+        
+    }
 }

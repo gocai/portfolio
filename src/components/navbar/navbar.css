@@ -3,6 +3,7 @@
     width: 100vw;
     max-width: 110rem;
     margin: 0 auto;
+    margin-top: 1rem;
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
@@ -10,6 +11,7 @@
     position: sticky;
     top: 0;
     z-index: 3;
+    font-size: 1.25rem;
 }
 
 .logo{
@@ -20,7 +22,7 @@
 }
 
 .desktopMenuListItem{
-    margin: 1rem;
+    margin: 2rem;
     cursor: pointer;
     transition-duration: 0.3s;
 }
@@ -42,6 +44,7 @@
     border-radius: 12rem;
     transition-duration: 0.4s;
     cursor: pointer;
+    padding: 0.75rem 2rem;
 }
 
 .contactMeButton:hover{
@@ -51,7 +54,13 @@
 
 .contactMeIcon{
     object-fit: cover;
-    height: 4rem;
-    width: 4rem;
-    margin: 0.1rem;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:840px){
+    .desktopMenuListItem{
+        font-size: 3vw;
+    }
 }

@@ -11,9 +11,10 @@ const Intro = () => {
             <span className="introText">I'm 
              <span className="introName"> Gordon Cai,</span> 
             </span>
-            <br /> a Front End Developer
+            <br /> a Web Developer
             <p className="introParagraph">
-                I'm an aspiring Front End Developer with a passion.
+                I'm an aspiring Web Developer 
+                looking for <br /> opportunities in the workplace.
             </p>
             <Link><button className="hireMeButton"><img src={hireicon} alt="Hire Me" className="hireMeImg"/>Hire Me</button></Link>
       </div>
