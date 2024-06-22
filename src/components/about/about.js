@@ -11,8 +11,8 @@ const About = () => {
         <h2>About Me</h2>
       </span>
       <span className="sectionParagraph">
-        I am an entry level web and game designer with a passion for creating websites, webapps, and video games! <br />
-        I have intermediate knowledge in HTML, CSS, Javascript and Typescript, as well as C++ and C#.
+        I am a web and game designer with a passion for creating websites, webapps, and video games! <br />
+        I have proficiency in HTML, CSS, Javascript and Typescript, as well as C++ and C#.
       </span>
       <div className="skillBars">
 
@@ -35,7 +35,7 @@ const About = () => {
         <div className="skillBar">
             <img src={computerIcon} alt="" className="skillImg" />
             <div className="skillText">
-                <h2>bazinga</h2>
+                <h2>Skills</h2>
                 <p>placeholder text</p>
             </div>
         </div>

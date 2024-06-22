@@ -13,7 +13,7 @@ const Intro = () => {
             </span>
              a Web and Game Developer
             <p className="introParagraph">
-                I'm an entry level Web and Game Developer 
+                I'm a Web and Game Developer 
                 looking for <br /> opportunities in the workplace.
             </p>
             <Link><button className="hireMeButton"><img src={hireicon} alt="Hire Me" className="hireMeImg"/>Hire Me</button></Link>

@@ -1,6 +1,7 @@
 import React from "react";
 import './portfoliotab.css';
 import abrakajumpa from '../../assets/abraicon.png';
+import goblinpunch from '../../assets/goblin.png';
 
 const Portfoliotab = () => {
   return (
@@ -11,7 +12,7 @@ const Portfoliotab = () => {
         <div className="workspanel">
             <img src={abrakajumpa} alt="" className="worksimg" />
             <h2 className="workspanelheader">
-                Abrakajumpa
+            <a href="https://store.steampowered.com/app/2998050/Abrakajumpa/" target="_blank" rel="noreferrer">Abrakajumpa</a>
             </h2>
             <p className="workspaneldesc">
                 A challenging 2D vertical platformer made in Unity, published on Steam.
@@ -19,12 +20,12 @@ const Portfoliotab = () => {
         </div>
 
         <div className="workspanel">
-            <img src="" alt="" className="worksimg" />
+            <img src={goblinpunch} alt="" className="worksimgGoblin" />
             <h2 className="workspanelheader">
-                
+                <a href="https://gocai.github.io/GoblinPunch/"target="_blank" rel="noreferrer">GOBLIN FIGHT</a>
             </h2>
             <p className="workspaneldesc">
-                
+                Punch goblins in an HTML based web game. One touch controls.
             </p>
         </div>
 
