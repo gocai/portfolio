@@ -2,6 +2,7 @@ import React from "react";
 import './portfoliotab.css';
 import abrakajumpa from '../../assets/abraicon.png';
 import goblinpunch from '../../assets/goblin.png';
+import doodle from '../../assets/doodle.png';
 
 const Portfoliotab = () => {
   return (
@@ -30,12 +31,12 @@ const Portfoliotab = () => {
         </div>
 
         <div className="workspanel">
-            <img src="" alt="" className="worksimg" />
+            <img src={doodle} alt="" className="worksimgCanvas" />
             <h2 className="workspanelheader">
-                
+            <a href="https://gocai.github.io/InteractiveCanvas/"target="_blank" rel="noreferrer">Interactive Canvas</a>
             </h2>
             <p className="workspaneldesc">
-                
+                An interactive canvas with multiple functionalities made in TS. Give it a try!
             </p>
         </div>
     </section>
