@@ -1,3 +1,29 @@
+#works{
+    overflow: hidden;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+    margin: 1rem auto;
+}
+
+.workstitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.worksdescription{
+    font-weight: 500;
+    padding: 0 1rem;
+    font-size: 1.3rem;
+}
+
 .worksimgGoblin{
     height: 10rem;
     width: 10rem;
@@ -5,4 +31,25 @@
 .worksimgCanvas{
     height: 10rem;
     width: 10rem;
+}
+
+.workspanels{
+    margin: 1.5rem;
+    width: 100vw;
+    text-align: center;
+}
+
+.workspanel{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(149, 170, 89);
+    max-width: 60%;
+    align-items: center;
+    
+}
+
+.workspaneldesc{
+    font-weight: 400;
 }
