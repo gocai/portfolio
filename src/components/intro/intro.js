@@ -1,7 +1,6 @@
 import "./intro.css";
 import React from 'react'
-import {Link} from 'react-scroll';
-import hireicon from '../../assets/hireme.png';
+
 
 const Intro = () => {
   return (
@@ -16,7 +15,6 @@ const Intro = () => {
                 I'm a Web and Game Developer 
                 looking for <br /> opportunities in the workplace.
             </p>
-            <Link><button className="hireMeButton"><img src={hireicon} alt="Hire Me" className="hireMeImg"/>Hire Me</button></Link>
       </div>
       <img src="" alt="" className="backgroundImage" />
     </section>
