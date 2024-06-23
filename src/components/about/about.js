@@ -1,8 +1,8 @@
 import React from 'react';
 import './about.css';
 import diplomaIcon from '../../assets/diploma.png';
-import teamworkIcon from '../../assets/teamwork.png';
 import computerIcon from '../../assets/computer.png';
+import gamepadIcon from '../../assets/gamepad.png';
 
 const About = () => {
   return (
@@ -25,18 +25,19 @@ const About = () => {
         </div>
 
         <div className="skillBar">
-            <img src={teamworkIcon} alt="" className="skillImg" />
+            <img src={gamepadIcon} alt="" className="skillImg" />
             <div className="skillText">
-                <h2>Personality</h2>
-                <p>I thrive in both independent and team settings.</p>
+                <h2>Game Design and Development</h2>
+                <p>I have worked on web based games using JS,TS, and C++. I have also worked on several games using Unity and C++. </p>
             </div>
         </div>
 
         <div className="skillBar">
             <img src={computerIcon} alt="" className="skillImg" />
             <div className="skillText">
-                <h2>Skills</h2>
-                <p>placeholder text</p>
+                <h2>Web Development</h2>
+                <p>As a web developer, I focus on making user friendly websites and webapps. <br />
+                My focus is in front end development using HTML, CSS, JS and TS, and back-end frameworks such as React, Angular, and Node.js.</p>
             </div>
         </div>
 

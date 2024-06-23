@@ -54,3 +54,19 @@
 .workspaneldesc{
     font-weight: 400;
 }
+
+.workspanelheader{
+    display: flex;
+}
+
+@media screen and (max-width:585px) {
+    .workspanelheader{
+        font-size: 1rem;
+    }
+    .worksdescription{
+        font-size: .5rem;
+    }
+    .workspaneldesc{
+        font-size: .5rem;
+    }
+}
