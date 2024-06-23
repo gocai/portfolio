@@ -36,9 +36,9 @@ const Contact = () => {
           <textarea className="message" rows="5" placeholder = 'Your Message' name='message'></textarea>
           <button type='submit' value='Send' className="submit">Submit</button>
           <div className="links"></div>
-          <a href="www.linkedin.com/in/gocai" target="_blank" rel="noreferrer">
-          <img src={linkedinLogo} alt="LinkedIn Logo" className="linkedin" />
-          </a>
+          <a href="https://www.linkedin.com/in/gocai" target="_blank" rel="noopener noreferrer">
+    <img src={linkedinLogo} alt="LinkedIn Logo" className="linkedin" />
+    </a>
         </form>
       </div>
     </section>
