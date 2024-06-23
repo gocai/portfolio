@@ -13,10 +13,12 @@ const Navbar = () => {
             <Link activeClass = 'active' to = 'about' spy = {true} smooth = {true} offset = {-50} duration={500} className="desktopMenuListItem">About</Link>
             <Link activeClass = 'active' to = 'works' spy = {true} smooth = {true} offset = {-5} duration={500} className="desktopMenuListItem">Portfolio</Link>
         </div>
+        <Link to='contactpage' spy={true} smooth={true} offset={-200} duration={500} className="desktopMenuListItem">
         <button className="contactMeButton">
-            <img src={contactme} alt="" className="contactMeIcon" />
-            Contact Me
+        <img src={contactme} alt="Contact Me Icon" className="contactMeIcon" />
+        Contact Me
         </button>
+        </Link>
     </nav>
   )
 }
