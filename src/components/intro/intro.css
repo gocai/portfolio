@@ -2,7 +2,7 @@
     height: calc(100vh - 4rem);
     max-width: 75vw;
     margin: 0 auto;
-    overflow: hidden;
+    
     
 }
 
@@ -61,14 +61,13 @@
 
 @media screen and (max-width:840px){
     .introContent{
-        font-size: 7.5vw;
+        font-size: 8.5vw;
     }
     .hello{
-        font-size: 4.5vw;
+        font-size: 5.5vw;
     }
     .introParagraph{
-        font-size: 2vw;
-        
+        font-size: 3vw;
     }
 }
 

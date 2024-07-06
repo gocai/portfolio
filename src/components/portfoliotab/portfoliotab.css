@@ -25,12 +25,12 @@
 }
 
 .worksimgGoblin{
-    height: 10rem;
-    width: 10rem;
+    height: 6rem;
+    width: 6rem;
 }
 .worksimgCanvas{
-    height: 8rem;
-    width: 8rem;
+    height: 6vw;
+    width: 6vw;
 }
 
 .workspanels{
@@ -60,13 +60,23 @@
 }
 
 @media screen and (max-width:585px) {
-    .workspanelheader{
-        font-size: 1rem;
+    .workstitle{
+        font-size: 9vw;
+        margin: 1rem auto;
     }
     .worksdescription{
-        font-size: .5rem;
+        font-size: 4vw;
+        margin: 0 auto;
+    }
+    .workspanelheader{
+        font-size: 4vw;
+        margin: 0 auto;
     }
     .workspaneldesc{
         font-size: .5rem;
     }
+    .workspanel{
+        align-items: center;
+    }
+    
 }
