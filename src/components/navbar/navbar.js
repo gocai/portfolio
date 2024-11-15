@@ -15,7 +15,8 @@ const Navbar = () => {
             <Link activeClass = 'active' to = 'about' spy = {true} smooth = {true} offset = {-50} duration={500} className="desktopMenuListItem">About</Link>
             <Link activeClass = 'active' to = 'works' spy = {true} smooth = {true} offset = {-5} duration={500} className="desktopMenuListItem">Portfolio</Link>
         </div>
-        <Link to='contactpage' spy={true} smooth={true} offset={-200} duration={500} className="desktopMenuListItem">
+        <div className='buttonContainer'>
+        <Link to='contactpage' spy={true} smooth={true} offset={-200} duration={500} className="desktopMenuListButton">
         <button className="contactMeButton">
         <img src={contactme} alt="Contact Me Icon" className="contactMeIcon" />
         Contact Me
@@ -24,6 +25,7 @@ const Navbar = () => {
         <button className="portfolioDownloadButton">
           <a href={pdf} target="_blank" rel="noreferrer">Portfolio<br />Download</a> 
         </button>
+        </div>
     </nav>
   )
 }
