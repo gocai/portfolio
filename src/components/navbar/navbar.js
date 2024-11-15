@@ -2,6 +2,8 @@ import React from 'react'
 import "./navbar.css";
 import logo from "../../assets/logo.png";
 import contactme from "../../assets/contactme.png";
+import pdf from '../../assets/Resume.pdf';
+
 import {Link} from 'react-scroll';
 
 const Navbar = () => {
@@ -19,6 +21,9 @@ const Navbar = () => {
         Contact Me
         </button>
         </Link>
+        <button className="portfolioDownloadButton">
+          <a href={pdf} target="_blank" rel="noreferrer">Portfolio<br />Download</a> 
+        </button>
     </nav>
   )
 }
